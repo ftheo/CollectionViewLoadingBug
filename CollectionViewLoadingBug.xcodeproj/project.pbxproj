@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		9988B5671A9A4A2B0051A628 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988B5661A9A4A2B0051A628 /* AppDelegate.swift */; };
 		9988B5691A9A4A2B0051A628 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988B5681A9A4A2B0051A628 /* ViewController.swift */; };
-		9988B56C1A9A4A2B0051A628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9988B56A1A9A4A2B0051A628 /* Main.storyboard */; };
 		9988B56E1A9A4A2B0051A628 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9988B56D1A9A4A2B0051A628 /* Images.xcassets */; };
-		9988B5711A9A4A2B0051A628 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9988B56F1A9A4A2B0051A628 /* LaunchScreen.xib */; };
 		9988B57D1A9A4A2B0051A628 /* CollectionViewLoadingBugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9988B57C1A9A4A2B0051A628 /* CollectionViewLoadingBugTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,9 +28,7 @@
 		9988B5651A9A4A2B0051A628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9988B5661A9A4A2B0051A628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9988B5681A9A4A2B0051A628 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9988B56B1A9A4A2B0051A628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9988B56D1A9A4A2B0051A628 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9988B5701A9A4A2B0051A628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9988B5761A9A4A2B0051A628 /* CollectionViewLoadingBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewLoadingBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9988B57B1A9A4A2B0051A628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9988B57C1A9A4A2B0051A628 /* CollectionViewLoadingBugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLoadingBugTests.swift; sourceTree = "<group>"; };
@@ -79,9 +75,7 @@
 			children = (
 				9988B5661A9A4A2B0051A628 /* AppDelegate.swift */,
 				9988B5681A9A4A2B0051A628 /* ViewController.swift */,
-				9988B56A1A9A4A2B0051A628 /* Main.storyboard */,
 				9988B56D1A9A4A2B0051A628 /* Images.xcassets */,
-				9988B56F1A9A4A2B0051A628 /* LaunchScreen.xib */,
 				9988B5641A9A4A2B0051A628 /* Supporting Files */,
 			);
 			path = CollectionViewLoadingBug;
@@ -192,8 +186,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9988B56C1A9A4A2B0051A628 /* Main.storyboard in Resources */,
-				9988B5711A9A4A2B0051A628 /* LaunchScreen.xib in Resources */,
 				9988B56E1A9A4A2B0051A628 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,25 +226,6 @@
 			targetProxy = 9988B5771A9A4A2B0051A628 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9988B56A1A9A4A2B0051A628 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9988B56B1A9A4A2B0051A628 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9988B56F1A9A4A2B0051A628 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9988B5701A9A4A2B0051A628 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9988B57E1A9A4A2B0051A628 /* Debug */ = {

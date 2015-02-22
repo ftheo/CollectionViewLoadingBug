@@ -1,0 +1,1 @@
+This shows a problem  I am encoutering where on loading the UICollectionView calls sizeForItemAtIndexPath for ALL the cells. If I am using a large number of cells with custom size this creates unecessary lag

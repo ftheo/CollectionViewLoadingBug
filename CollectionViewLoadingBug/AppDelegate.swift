@@ -11,10 +11,18 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
+    var window: UIWindow!
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window.backgroundColor = UIColor.whiteColor()
+        
+        let layout = UICollectionViewFlowLayout()
+        layout.itemSize.width = window.frame.width // One item per row to look like a TableView
+                
+        window.rootViewController = ViewController(collectionViewLayout: layout)
+        window.makeKeyAndVisible()
         // Override point for customization after application launch.
         return true
     }
